@@ -1,9 +1,9 @@
 PROJECT         := signy
-ORG             := cnabio
+ORG             := seb-bah
 BINDIR          := $(CURDIR)/bin
 GOFLAGS         :=
 GOBUILDTAGS     := osusergo
-LDFLAGS         := -w -s -X github.com/cnabio/signy/pkg/docker.Tag=$(TAG)
+LDFLAGS         := -w -s -X github.com/seb-bah/signy/pkg/docker.Tag=$(TAG)
 
 ifeq ($(OS),Windows_NT)
 	TARGET = $(PROJECT).exe
