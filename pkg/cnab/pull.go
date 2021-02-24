@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/cnabio/cnab-go/bundle"
-	"github.com/docker/cnab-to-oci/remotes"
+	"github.com/cnabio/cnab-to-oci/remotes"
 	"github.com/docker/distribution/reference"
 	log "github.com/sirupsen/logrus"
 )

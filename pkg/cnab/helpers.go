@@ -3,9 +3,9 @@ package cnab
 import (
 	"os"
 
+	"github.com/cnabio/cnab-to-oci/remotes"
 	containerdRemotes "github.com/containerd/containerd/remotes"
 	"github.com/docker/cli/cli/config"
-	"github.com/docker/cnab-to-oci/remotes"
 	log "github.com/sirupsen/logrus"
 )
 

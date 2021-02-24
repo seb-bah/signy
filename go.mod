@@ -2,6 +2,28 @@ module github.com/cnabio/signy
 
 go 1.13
 
+replace (
+	// porterops: contains the following patches
+	// jsonschema-lock: https://github.com/cnabio/cnab-go/pull/237
+	// k8s-driver-improvements: https://github.com/cnabio/cnab-go/pull/238
+
+	github.com/cnabio/cnab-go => github.com/carolynvs/cnab-go v0.13.4-0.20210202134931-c688d6de576e
+
+	// See https://github.com/containerd/containerd/issues/3031
+	// When I try to just use the require, go is shortening it to v2.7.1+incompatible which then fails to build...
+	github.com/docker/distribution => github.com/docker/distribution v2.7.1-0.20190205005809-0d3efadf0154+incompatible
+
+	// See https://github.com/hashicorp/go-plugin/pull/127 and
+	// https://github.com/hashicorp/go-plugin/pull/163
+	// Tagged from v1.4.0, the improved-configuration branch
+	github.com/hashicorp/go-plugin => github.com/getporter/go-plugin v1.4.0-improved-configuration
+
+	// local-keyword-registry
+	github.com/qri-io/jsonschema => github.com/carolynvs/jsonschema v0.2.1-0.20210120214917-11cc5e4545c8
+
+	golang.org/x/sys => golang.org/x/sys v0.0.0-20190830141801-acfa387b8d69
+)
+
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78
 	github.com/Masterminds/semver v1.5.0
@@ -10,7 +32,8 @@ require (
 	github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5 // indirect
 	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412
 	github.com/beorn7/perks v1.0.1
-	github.com/cnabio/cnab-go v0.8.2-beta1
+	github.com/cnabio/cnab-go v0.10.0-beta1
+	github.com/cnabio/cnab-to-oci v0.3.1-beta1
 	github.com/containerd/containerd v1.3.0
 	github.com/containerd/continuity v0.0.0-20190827140505-75bee3e2ccb6
 	github.com/containerd/fifo v0.0.0-20190816180239-bda0ff6ed73c
@@ -20,7 +43,7 @@ require (
 	github.com/docker/cli v0.0.0-20191017083524-a8ff7f821017
 	github.com/docker/cnab-to-oci v0.3.0-beta4
 	github.com/docker/compose-on-kubernetes v0.4.24 // indirect
-	github.com/docker/distribution v2.7.1-0.20190205005809-0d3efadf0154+incompatible
+	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v1.4.2-0.20191021213818-bebd8206285b
 	github.com/docker/docker-credential-helpers v0.6.3
 	github.com/docker/go v1.5.1-1
@@ -51,16 +74,16 @@ require (
 	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4
 	github.com/prometheus/common v0.7.0
 	github.com/prometheus/procfs v0.0.5
-	github.com/qri-io/jsonpointer v0.1.0
-	github.com/qri-io/jsonschema v0.1.1
+	github.com/qri-io/jsonpointer v0.1.1
+	github.com/qri-io/jsonschema v0.2.1-0.20201028142641-08d62a2939dc
 	github.com/sirupsen/logrus v1.4.2
-	github.com/spf13/cobra v0.0.5
+	github.com/spf13/cobra v0.0.6
 	github.com/spf13/pflag v1.0.5
-	github.com/stretchr/testify v1.4.0
+	github.com/stretchr/testify v1.5.1
 	github.com/syndtr/gocapability v0.0.0-20180916011248-d98352740cb2
 	github.com/theupdateframework/notary v0.6.1
-	golang.org/x/crypto v0.0.0-20191029031824-8986dd9e96cf
-	golang.org/x/net v0.0.0-20191021144547-ec77196f6094
+	golang.org/x/crypto v0.0.0-20191122220453-ac88ee75c92c
+	golang.org/x/net v0.0.0-20200226121028-0de0cce0169b
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/sys v0.0.0-20191020212454-3e7259c5e7c2
 	golang.org/x/text v0.3.2
