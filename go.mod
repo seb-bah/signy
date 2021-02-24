@@ -1,6 +1,6 @@
 module github.com/seb-bah/signy
 
-go 1.13
+go 1.16
 
 replace (
 	// porterops: contains the following patches
@@ -34,7 +34,6 @@ require (
 	github.com/beorn7/perks v1.0.1
 	github.com/cnabio/cnab-go v0.10.0-beta1
 	github.com/cnabio/cnab-to-oci v0.3.1-beta1
-	github.com/cnabio/signy v0.0.0-20200605050217-afba301697df
 	github.com/containerd/containerd v1.3.0
 	github.com/containerd/continuity v0.0.0-20190827140505-75bee3e2ccb6
 	github.com/containerd/fifo v0.0.0-20190816180239-bda0ff6ed73c
@@ -42,7 +41,6 @@ require (
 	github.com/containerd/typeurl v0.0.0-20190911142611-5eb25027c9fd
 	github.com/davecgh/go-spew v1.1.1
 	github.com/docker/cli v0.0.0-20191017083524-a8ff7f821017
-	github.com/docker/cnab-to-oci v0.3.0-beta4
 	github.com/docker/compose-on-kubernetes v0.4.24 // indirect
 	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v1.4.2-0.20191021213818-bebd8206285b

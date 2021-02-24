@@ -10,7 +10,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/theupdateframework/notary/client"
 
-	"github.com/cnabio/signy/pkg/cnab"
+	"github.com/seb-bah/signy/pkg/cnab"
 )
 
 func GetThickBundle(localFile string) ([]byte, error) {
