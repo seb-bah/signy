@@ -1,4 +1,4 @@
-module github.com/cnabio/signy
+module github.com/seb-bah/signy
 
 go 1.13
 
@@ -34,6 +34,7 @@ require (
 	github.com/beorn7/perks v1.0.1
 	github.com/cnabio/cnab-go v0.10.0-beta1
 	github.com/cnabio/cnab-to-oci v0.3.1-beta1
+	github.com/cnabio/signy v0.0.0-20200605050217-afba301697df
 	github.com/containerd/containerd v1.3.0
 	github.com/containerd/continuity v0.0.0-20190827140505-75bee3e2ccb6
 	github.com/containerd/fifo v0.0.0-20190816180239-bda0ff6ed73c
