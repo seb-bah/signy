@@ -7,7 +7,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/cnabio/signy/pkg/tuf"
+	"github.com/seb-bah/signy/pkg/tuf"
 )
 
 var (

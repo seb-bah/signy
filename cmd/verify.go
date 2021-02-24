@@ -6,9 +6,9 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/cnabio/signy/pkg/docker"
-	"github.com/cnabio/signy/pkg/intoto"
-	"github.com/cnabio/signy/pkg/tuf"
+	"github.com/seb-bah/signy/pkg/docker"
+	"github.com/seb-bah/signy/pkg/intoto"
+	"github.com/seb-bah/signy/pkg/tuf"
 )
 
 type verifyCmd struct {

@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/cnabio/signy/pkg/tuf"
+	"github.com/seb-bah/signy/pkg/tuf"
 )
 
 type listCmd struct {

@@ -9,7 +9,7 @@ import (
 	log "github.com/sirupsen/logrus"
 	"github.com/theupdateframework/notary/client"
 
-	"github.com/cnabio/signy/pkg/docker"
+	"github.com/seb-bah/signy/pkg/docker"
 )
 
 const (
