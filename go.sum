@@ -74,6 +74,8 @@ github.com/cnabio/cnab-go v0.8.2-beta1 h1:pJfXR9w0G1m3sFE3yp+ImAKeaBUwa2OviE9f+P
 github.com/cnabio/cnab-go v0.8.2-beta1/go.mod h1:5c4uOP6ZppR4nUGtCMAElscRiYEUi44vNQwtSAvISXk=
 github.com/cnabio/cnab-go v0.10.0-beta1 h1:5LEEODVQkyCHfeT6pggPz5zq/PinA/CzlNrChFkfGkg=
 github.com/cnabio/cnab-go v0.10.0-beta1/go.mod h1:5c4uOP6ZppR4nUGtCMAElscRiYEUi44vNQwtSAvISXk=
+github.com/cnabio/cnab-to-oci v0.3.0-beta4 h1:+P3UhhWxZQtpd6PonUnilu2xgYHbmSMgvPVGnkMeTnQ=
+github.com/cnabio/cnab-to-oci v0.3.0-beta4/go.mod h1:mFGzHnbsS1KCGcW/xYbgbon/4yijDoWXw2539Zpn9VU=
 github.com/cnabio/cnab-to-oci v0.3.1-beta1 h1:qAuLRt+2J7U7wIB5YG+COtS630NQCf4G1h1p0Yk6llo=
 github.com/cnabio/cnab-to-oci v0.3.1-beta1/go.mod h1:8BomA5Vye+3V/Kd2NSFblCBmp1rJV5NfXBYKbIGT5Rw=
 github.com/cnabio/signy v0.0.0-20200605050217-afba301697df h1:9DJqt4CuU6iCShAKgn4OqjGTDIebzToUL9RBMc5RoNw=
@@ -112,6 +114,8 @@ github.com/docker/cli v0.0.0-20190925022749-754388324470/go.mod h1:JLrzqnKDaYBop
 github.com/docker/cli v0.0.0-20191003175244-2355349d8b99/go.mod h1:JLrzqnKDaYBop7H2jaqPtU4hHvMKP+vjCwu2uszcLI8=
 github.com/docker/cli v0.0.0-20191017083524-a8ff7f821017 h1:2HQmlpI3yI9deH18Q6xiSOIjXD4sLI55Y/gfpa8/558=
 github.com/docker/cli v0.0.0-20191017083524-a8ff7f821017/go.mod h1:JLrzqnKDaYBop7H2jaqPtU4hHvMKP+vjCwu2uszcLI8=
+github.com/docker/cnab-to-oci v0.3.0-beta4 h1:+P3UhhWxZQtpd6PonUnilu2xgYHbmSMgvPVGnkMeTnQ=
+github.com/docker/cnab-to-oci v0.3.0-beta4/go.mod h1:mFGzHnbsS1KCGcW/xYbgbon/4yijDoWXw2539Zpn9VU=
 github.com/docker/compose-on-kubernetes v0.4.24/go.mod h1:iT2pYfi580XlpaV4KmK0T6+4/9+XoKmk/fhoDod1emE=
 github.com/docker/distribution v2.6.0-rc.1.0.20180327202408-83389a148052+incompatible/go.mod h1:J2gT2udsDAN96Uj4KfcMRqY0/ypR+oyYUYmja8H+y+w=
 github.com/docker/distribution v2.7.0+incompatible/go.mod h1:J2gT2udsDAN96Uj4KfcMRqY0/ypR+oyYUYmja8H+y+w=
@@ -382,10 +386,6 @@ github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFR
 github.com/rogpeppe/go-internal v1.5.2/go.mod h1:xXDCJY+GAPziupqXw64V24skbSoqbTEfhy4qGm1nDQc=
 github.com/russross/blackfriday v1.5.2/go.mod h1:JO/DiYxRf+HjHt06OyowR9PTA263kcR/rfWxYHBV53g=
 github.com/russross/blackfriday/v2 v2.0.1/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
-github.com/seb-bah/cnab-to-oci v0.3.1-beta1.0.20210224194218-efe207594569 h1:rJKUvdn8t8DRLXOgLuIsLfs9QWqnlQDa9fBlnCiB7TE=
-github.com/seb-bah/cnab-to-oci v0.3.1-beta1.0.20210224194218-efe207594569/go.mod h1:mEtkwwZwHM9QstPhNqkdKsryn4SC349LBKUvL2L8d3o=
-github.com/seb-bah/cnab-to-oci v0.3.1-beta1.0.20210224195429-0d530adfa424 h1:Ro4aUMYDY3Rfei5dd/opVeFIXEYZwGSavA9jYIKUygo=
-github.com/seb-bah/cnab-to-oci v0.3.1-beta1.0.20210224195429-0d530adfa424/go.mod h1:rESELiB8MWvitMI0Rz6X+W8crShQg8uhcu4+tU1Qi9c=
 github.com/sergi/go-diff v1.0.0/go.mod h1:0CfEIISq7TuYL3j771MWULgwwjU+GofnZX9QAmXWZgo=
 github.com/shurcooL/sanitized_anchor_name v1.0.0/go.mod h1:1NzhyTcUVG4SuEtjjoZeVRXNmyL/1OwPU0+IJeTBvfc=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=

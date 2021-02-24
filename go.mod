@@ -22,11 +22,8 @@ replace (
 	github.com/qri-io/jsonschema => github.com/carolynvs/jsonschema v0.2.1-0.20210120214917-11cc5e4545c8
 
 	golang.org/x/sys => golang.org/x/sys v0.0.0-20190830141801-acfa387b8d69
-
-	github.com/docker/cnab-to-oci => github.com/seb-bah/cnab-to-oci main
-
 )
- 
+
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78
 	github.com/Masterminds/semver v1.5.0
@@ -36,6 +33,7 @@ require (
 	github.com/agl/ed25519 v0.0.0-20170116200512-5312a6153412
 	github.com/beorn7/perks v1.0.1
 	github.com/cnabio/cnab-go v0.10.0-beta1
+	github.com/cnabio/cnab-to-oci v0.3.1-beta1
 	github.com/cnabio/signy v0.0.0-20200605050217-afba301697df
 	github.com/containerd/containerd v1.3.0
 	github.com/containerd/continuity v0.0.0-20190827140505-75bee3e2ccb6
@@ -44,6 +42,7 @@ require (
 	github.com/containerd/typeurl v0.0.0-20190911142611-5eb25027c9fd
 	github.com/davecgh/go-spew v1.1.1
 	github.com/docker/cli v0.0.0-20191017083524-a8ff7f821017
+	github.com/docker/cnab-to-oci v0.3.0-beta4
 	github.com/docker/compose-on-kubernetes v0.4.24 // indirect
 	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v1.4.2-0.20191021213818-bebd8206285b

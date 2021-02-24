@@ -8,9 +8,9 @@ import (
 	"os"
 
 	"github.com/cnabio/cnab-go/bundle"
+	"github.com/cnabio/cnab-to-oci/remotes"
 	"github.com/docker/distribution/reference"
 	"github.com/docker/docker/client"
-	"github.com/seb-bah/cnab-to-oci/remotes"
 	log "github.com/sirupsen/logrus"
 )
 
